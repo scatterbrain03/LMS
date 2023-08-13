@@ -1,0 +1,97 @@
+body{
+    background-image: url('diagbooks.jpg');
+}
+ul.topnav{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: #333;
+}
+ul.topnav li{
+    float:left;
+    background-color: black;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+ul.topnav li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+#heading{
+    background-color: bisque;
+    float: left;
+    width: 70%; 
+    text-align: center;
+    height: 390px;
+}
+div >img{
+    max-width :58% ;
+    border-radius: 10px;
+}
+#lms{
+    font-size: 350%;
+}
+#des{
+    font-size: 200%;
+}
+#login{
+    font-family: 'Courier New', Courier, monospace;
+    color: cornsilk;
+    background-color: rgb(56, 22, 22); 
+    display: inline-block;
+    width: 29%;
+    text-align: center;  
+    height: 390px;
+    font-size: 100%;
+    padding 0px;
+    margin: 0%;
+}
+input[type=text],input[type=email],input[type=password]{
+        color: black;
+        box-sizing: border-box;
+        width: 80%;
+        padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+        background-color: rgb(254, 195, 100);
+        box-sizing: border-box;
+    }
+    input[type=submit] {
+        width: 29;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    div h2, div table{
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:rgb(56, 22, 22);
+        background-color:burlywood;
+    }  
+    th{
+        border-bottom: 1px solid rgb(56, 22, 22);
+    }
+    #gen{
+        position: relative;
+        text-align: center;
+        font-family:cursive;
+        color: rgb(212, 178, 133);
+        font-size: 60px;
+        padding: 20px 20px;
+        overflow: visible;
+        margin-bottom: 0px;
+        text-shadow:2px 3px 5px rgb(44, 38, 38);
+    }
